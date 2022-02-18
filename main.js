@@ -18,8 +18,8 @@ function start() {
             taskContent.innerHTML += `<div class="task">
             <p onclick="Checked(this)">${proArr[i]}<input type="text"></p>
                 <div>
-                    <span class="edit" onclick = "editTask(this,${i})">Edit </span>
-                    <span class="delete" onclick="deleteTask(${i})">Delete</span>
+                    <span class="edit" onclick = "editTask(this,${i})"> Edit </span>
+                    <span class="delete" onclick="deleteTask(${i})"> Delete </span>
                 </div>
             </div>`
         }
