@@ -133,7 +133,8 @@ header {
     position: absolute;
     left: 10px;
     color: #bb2b73;
-    height:16px
+    height: 20px;
+    width: 150px;
 }
 
 
