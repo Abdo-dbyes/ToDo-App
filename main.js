@@ -37,6 +37,12 @@ function start() {
     if(proArr.length > 2) {
         clearBtn.style.cssText = 'display;""'
     }
+     // Show No tasks
+    if(proArr.length < 1){
+        document.querySelector('.no-tasks').style.display = ""
+    }else {
+        document.querySelector('.no-tasks').style.display = "none"
+    }
 }
 addBtn.addEventListener ("click",addTask)
 input.addEventListener("keyup",function(e){
