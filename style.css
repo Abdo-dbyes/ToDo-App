@@ -149,7 +149,7 @@ header {
 }
 
 .task-content .tasks .task span {
-    font-size: 1PX;
+    font-size: 10px;
     padding: 4px 7px;
     margin-left: 5px;
     cursor: pointer;
